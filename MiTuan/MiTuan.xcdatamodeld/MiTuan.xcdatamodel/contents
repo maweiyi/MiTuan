@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CityModel" representedClassName="CityModel" syncable="YES">
+        <attribute name="cityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jingdu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weidu" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HomeModelOne" representedClassName="HomeModelOne" syncable="YES">
+        <attribute name="btnImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="lableText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MingDianModel" representedClassName="MingDianModel" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShangPinModel" representedClassName="ShangPinModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deal_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descri" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="purchase_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CityModel" positionX="-18" positionY="54" width="128" height="105"/>
+        <element name="HomeModelOne" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="MingDianModel" positionX="-54" positionY="9" width="128" height="90"/>
+        <element name="ShangPinModel" positionX="-36" positionY="45" width="128" height="148"/>
+    </elements>
 </model>
